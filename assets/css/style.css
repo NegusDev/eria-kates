@@ -351,6 +351,39 @@ img {
   outline: none;
   letter-spacing: 2px;
 }
+.form-input-ft{
+  border: 1px solid black;
+  background: transparent;
+  letter-spacing: 2px;
+  border-radius: unset;
+}
+.form-input-ft[placeholder]{
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.form-input-ft:hover,
+.form-input-ft:focus {
+    border: 1px solid black;
+  background: transparent;
+  outline: none;
+  letter-spacing: 2px;
+}
+.form-button {
+   padding: .3rem 2.2rem;
+  /*font:normal 500 1rem/1rem var(--text-color);*/
+  color:#000;
+  letter-spacing: 2px;
+  position: relative;
+  background: transparent;
+  border: 1px solid black;
+
+}
+.socila-links li a{
+  border: 1px solid black;
+  padding: .4rem .5rem;
+  color: var(--text-color);
+}
 .copyright {
   font-size: 12px;
   letter-spacing: 2px;
@@ -361,6 +394,13 @@ img {
   font-size: 12px;
   letter-spacing: 2px;
   font-weight: bolder;
+}
+.footer-title {
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-family: ink free, cursive;
+  font-weight: bold;
+  color: black;
 }
 @media only screen and (max-width: 768px) {
   .nav-item {
@@ -403,6 +443,13 @@ img {
 }
 .carousel-item {
   height: 50vh !important;
+}
+.form-button{
+  margin-top: 5px;
+}
+.socila-links li a {
+  margin: 7px 0;
+  border: none;
 }
 
 }
