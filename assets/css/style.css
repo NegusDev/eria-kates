@@ -354,7 +354,13 @@ img {
 .copyright {
   font-size: 12px;
   letter-spacing: 2px;
+  font-weight: bolder;
   text-transform: uppercase;
+}
+.negus {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bolder;
 }
 @media only screen and (max-width: 768px) {
   .nav-item {
