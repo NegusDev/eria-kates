@@ -4,6 +4,7 @@ self.addEventListener("install", e =>{
 
 			return cache.addAll([
 				"./",
+			
 				"./assets/css",
 				"./assets/css/style.css",
 				"./assets/fonts/",
