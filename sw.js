@@ -8,9 +8,8 @@ self.addEventListener("install", e =>{
 				"./assets/css",
 				"./assets/css/style.css",
 				"./assets/fonts/",
-				"./assets/img/",
-				"./assets/img/icon-192.png",
-				"./assets/img/icon-512.png"
+				"./assets/img/"
+				
 			]);
 		})
 	);
